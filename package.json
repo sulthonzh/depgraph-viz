@@ -1,14 +1,12 @@
 {
   "name": "depgraph-viz",
   "version": "1.0.0",
-  "description": "Visualize npm dependency graphs as ASCII trees or SVG from lockfiles. Zero dependencies.",
-  "main": "src/index.js",
-  "bin": { "depgraph-viz": "src/cli.js" },
-  "scripts": { "test": "node test/test.js" },
-  "keywords": ["dependency", "graph", "visualize", "ascii", "svg", "lockfile", "tree"],
+  "description": "Visualize npm dependency graphs as ASCII trees or SVG. Zero dependencies.",
+  "main": "index.js",
+  "bin": { "depgraph-viz": "./cli.js" },
+  "scripts": { "test": "node test.js" },
+  "keywords": ["dependency", "graph", "visualize", "ascii", "svg", "npm", "tree"],
   "license": "MIT",
-  "author": "sulthonzh",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/depgraph-viz" },
-  "engines": { "node": ">=16" },
-  "files": ["src"]
+  "engines": { "node": ">=14" },
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/depgraph-viz" }
 }
