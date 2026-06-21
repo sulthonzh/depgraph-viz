@@ -3,10 +3,38 @@
   "version": "1.0.0",
   "description": "Visualize npm dependency graphs as ASCII trees or SVG. Zero dependencies.",
   "main": "index.js",
-  "bin": { "depgraph-viz": "./cli.js" },
-  "scripts": { "test": "node test.js" },
-  "keywords": ["dependency", "graph", "visualize", "ascii", "svg", "npm", "tree"],
+  "bin": {
+    "depgraph-viz": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "dependency",
+    "graph",
+    "visualize",
+    "ascii",
+    "svg",
+    "npm",
+    "tree"
+  ],
   "license": "MIT",
-  "engines": { "node": ">=14" },
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/depgraph-viz" }
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/depgraph-viz"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/sulthonzh/depgraph-viz",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/depgraph-viz/issues"
+  },
+  "author": "sulthonzh"
 }
