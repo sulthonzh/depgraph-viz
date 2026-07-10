@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/sulthonzh/depgraph-viz/issues"
   },
-  "author": "sulthonzh"
+  "author": "sulthonzh",
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  }
 }
